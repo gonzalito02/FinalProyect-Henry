@@ -22,15 +22,13 @@ To see the proyect on your computer, first you must do this:
  - The browser will open and show the program!
 
 <br/>
-<br/>
 
 If you want to see the dashboard that we designed for the admin rol, you can access using the following data:
 
 <br/>
-<br/>
 
-Admin user: admin@mail.com
-Password: 12345
+ + Admin user: admin@mail.com
+ + Password: 12345
 
 <br/>
 <br/>
@@ -49,7 +47,8 @@ Finish, the tecnologies using for this web page are:
 - react-pro-sldebar
 - sweetalert2
 
+<br/>
 Of course, we use JavaScript, CSS and HTML for do all this!!
-
+<br/>
 Thank you for reading this and you can send me a DM if you want to know more! 
 
