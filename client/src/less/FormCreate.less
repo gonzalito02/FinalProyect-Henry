@@ -1,0 +1,185 @@
+@import './variables.less';
+
+.containerCreate {
+    display: block;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: @Source;
+}
+
+.categoriesSelected {
+    box-shadow: 5px 5px 40px -2px black;
+    border-radius: 10px;
+    margin-left: 29rem !important;
+    margin-top: -100px;
+    color: black;
+    padding: 10px;
+    position: absolute;
+
+    label {
+        margin-bottom: 10px !important;
+    }
+
+    button {
+        margin: 0 !important;
+    }
+}
+
+.formContainer {
+    display: block;
+    background-color: white;
+    padding: 2rem 0;
+    max-width: min-content;
+    margin: auto;
+}
+
+
+.formInfo {
+    border: 1px solid @borderColor;
+    box-shadow: 5px 5px 20px -2px black;
+    border-radius: 20px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: @Source;
+    font-size: 20px;
+    text-align: justify;
+    align-items: flex-start;
+    min-width: 400px;
+    max-width: 600px;
+    margin-left: 18%;
+    background-color: white;
+
+    h2 {
+        margin: 0 auto 20px auto;
+    }
+
+    @media (max-width: 700px) {
+        min-width: 300px;
+        max-width: 400px;
+        margin: 0 0 0 33% !important;
+    }
+
+    @media (max-width: 950px) {
+        margin-left: 25%;
+    }
+
+    @media (max-width: 850px) {
+        margin-left: 23%;
+    }
+
+    .field {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 7px;
+        margin-left: 20%;
+
+        @media (max-width: 700px) {
+            margin-left: 15%;
+        }
+
+        select {
+            border: none;
+            background-color: #d8d8d8;
+            border-radius: 5px;
+            outline: none;
+            cursor: pointer;
+            padding-left: 10px;
+        }
+
+        button {
+            margin: auto;
+            background-color: rgb(255, 104, 104);
+            outline: none;
+            padding: 2px 0.7rem 3px 0.7rem;
+            border-radius: 10px;
+            font-size: 18px;
+            font-family: @Source;
+            border: 1px solid @borderColor;
+            font-weight: 400;
+
+            &:hover {
+                background-color: rgb(212, 24, 24);
+                color: white;
+                cursor: pointer;
+            }
+        }
+
+        label {
+            margin-right: 10px;
+        }
+
+        input {
+            outline: none;
+            border: none;
+            border-bottom: 1px solid @borderColor;
+            margin-left: 5px;
+
+            &:focus {
+                border-bottom: 1px solid #1C2833;
+
+            }
+        }
+    }
+
+    .description {
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+
+        textarea {
+            text-align: left;
+            font-size: @Source;
+            height: 200px;
+            width: 300px;
+            margin: 10px;
+            font-size: 14px;
+            line-height: 15px;
+            padding: 10px;
+            border-radius: 10px;
+            outline: none;
+        }
+    }
+
+    button {
+        margin: auto;
+        background-color: rgb(152, 255, 152);
+        outline: none;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 18px;
+        font-family: @Source;
+        border: 1px solid @borderColor;
+        font-weight: 400;
+
+        &:hover {
+            background-color: rgb(101, 179, 101);
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+.pastInfo {
+    display: block;
+    padding: 2rem 0;
+    margin-left: 13%;
+
+    h1 {
+        text-align: center;
+        font-family: @Source;
+    }
+}
+
+.errorMsg {
+    position: absolute;
+    z-index: 10;
+    margin-left: 22%;
+    font-family: @Source;
+    font-size: 17px;
+    color: #c52020;
+}

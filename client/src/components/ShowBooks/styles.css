@@ -1,0 +1,21 @@
+.homeContainer {
+  background-color: #dbdbdb;
+}
+.catalogue {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem;
+  border-radius: 10px;
+  row-gap: 5rem;
+  column-gap: 3rem;
+}
+@media (max-width: 1224px) {
+  .catalogue {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 750px) {
+  .catalogue {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
