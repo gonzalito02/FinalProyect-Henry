@@ -8,7 +8,9 @@
 
 The proyect is about an e-commerce that allows the owner to manage the store, the sales, and all the features around this business. So too, anyone can enter to see the store of books, do some shoppings, comment and put their opinion about one book, talk whit the support, and a lot of actions more. This project was developed by eigth henry's students. I colaborate mainly doing the forms to create, modify and delete books; the tables for admin and users, dinamyc search-bar and paginated, and other features more!
 
-<br/>
+<p align='left'>
+    <img  width="200px" heigth="200px" src='https://github.com/gonzalito02/FinalProyect-Henry/blob/main/books.jpg'</img>
+</p>
 
 ## To see the proyect on your computer, first you must do this:
 
