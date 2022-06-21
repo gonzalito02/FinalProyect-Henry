@@ -1,15 +1,12 @@
 # FinalProyect-Henry
   
-This is my final proyect for graduation on Henry's Institute! Whit my teamwork, we develop all this web page and deploy it!
+## This is my final proyect for graduation on Henry's Institute! Whit my teamwork, we develop all this web page and deploy it!
 
-<br/>
-<br/>
-  
 The proyect is about an e-commerce that allows the owner to manage the store, the sales, and all the features around this business. So too, anyone can enter to see the store of books, do some shoppings, comment and put their opinion about one book, talk whit the support, and a lot of actions more. This project was developed by eigth henry's students. I colaborate mainly doing the forms to create, modify and delete books; the tables for admin and users, dinamyc search-bar and paginated, and other features more!
 
 <br/>
 
-To see the proyect on your computer, first you must do this:
+## To see the proyect on your computer, first you must do this:
 
  - Clone the proyect.
  - Then you must enter on the command prompt, in the folders "Api" and "Client" on your IDE the following command: "npm i"
@@ -19,14 +16,14 @@ To see the proyect on your computer, first you must do this:
 
 <br/>
 
-If you want to see the dashboard that we designed for the admin rol, you can access using the following data:
+## If you want to see the dashboard that we designed for the admin rol, you can access using the following data:
 
  + Admin user: admin@mail.com
  + Password: 12345
 
 <br/>
 
-Finish, the tecnologies using for this web page are:
+## The tecnologies used for this web page are:
 
 - bcrypt 
 - cloudinary
@@ -40,11 +37,38 @@ Finish, the tecnologies using for this web page are:
 - react-pro-sldebar
 - sweetalert2
 
+------
+### Of course, we used JavaScript, CSS and HTML for do all this!!
+------
+
+## To finish, some captures!
+
+ - The landing page
+<p align='left'>
+    <img src='https://github.com/gonzalito02/FinalProyect-Henry/blob/main/landingPage.png'</img>
+</p>
+
+ - The store
+<p align='left'>
+    <img src='https://github.com/gonzalito02/FinalProyect-Henry/blob/main/store.png'</img>
+</p>
+
+ - The cart
+<p align='left'>
+    <img src='https://github.com/gonzalito02/FinalProyect-Henry/blob/main/cart.png'</img>
+</p>
+
+ - The dashboard
+<p align='left'>
+    <img src='https://github.com/gonzalito02/FinalProyect-Henry/blob/main/dashboard.png'</img>
+</p>
+
+ - The login
+<p align='left'>
+    <img src='https://github.com/gonzalito02/FinalProyect-Henry/blob/main/login.png'</img>
+</p>
+
 <br/>
 
-Of course, we use JavaScript, CSS and HTML for do all this!!
-
-<br/>
-
-Thank you for reading this and you can send me a DM if you want to know more! 
+### Thank you for reading this and you can send me a DM if you want to know more! 
 
